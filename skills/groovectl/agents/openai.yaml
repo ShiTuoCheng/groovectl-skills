@@ -1,4 +1,4 @@
 interface:
   display_name: "Groovectl for Discogs"
-  short_description: "Find Discogs releases and manage your records."
-  default_prompt: "Use $groovectl to find a Discogs release, check my collection, or read its current Marketplace price."
+  short_description: "Identify Discogs pressings, manage collections/wantlists, and read or manage Marketplace listings & orders."
+  default_prompt: "Use $groovectl to identify a Discogs pressing, manage my collection or wantlist, or check current Marketplace prices and listings."

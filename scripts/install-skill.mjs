@@ -39,8 +39,8 @@ async function main() {
     throw error;
   }
   console.log(`Installed skill: ${target}`);
-  console.log('CLI installation is separate: npm install --global groovectl@0.1.1');
-  console.log('Verify: groovectl version --json; then ask Codex to use $groovectl.');
+  console.log('CLI installation is separate: npm install --global groovectl@0.2.0');
+  console.log('Verify: groovectl version --json && groovectl schema --compact; then ask Codex to use $groovectl.');
 }
 
 main().catch((error) => {
